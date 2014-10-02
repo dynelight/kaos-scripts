@@ -1,0 +1,70 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+    "Rusted Mace"[colorscheme=pubu8, color=1]
+"Mace"[colorscheme=pubu8, color=2]
+"Sturdy Mace"[colorscheme=pubu8, color=3]
+"Claws"[colorscheme=pubu8, color=4]
+"Hammer"[colorscheme=pubu8, color=4]
+"Club"[colorscheme=pubu8, color=4]
+"Blackened Maul" [ label = "Blackened Maul\nBane: Night" ][colorscheme=pubu8, color=5]
+"Bedrock Club" [ label = "Bedrock Club\nBane: Earth" ][colorscheme=pubu8, color=5]
+"Charged Club" [ label = "Charged Club\nBane: Storm" ][colorscheme=pubu8, color=5]
+"Sacred Sceptre" [ label = "Sacred Sceptre\nBane: Evil" ][colorscheme=pubu8, color=5]
+"Charred Hammer" [ label = "Charred Hammer\nBane: Fire" ][colorscheme=pubu8, color=5]
+"Morning Star" [ label = "Morning Star\nBane: Greenskin" ][colorscheme=pubu8, color=5]
+"Iron Talons"[colorscheme=pubu8, color=5]
+"Cold Nails" [ label = "Cold Nails\nBane: Ice" ][colorscheme=pubu8, color=5]
+"Cub Claws" [ label = "Cub Claws\nBane: Inanimate" ][colorscheme=pubu8, color=5]
+"Great Claws" [ label = "Great Claws\nBane: Inanimate" ][colorscheme=pubu8, color=6]
+"Frozen Nails" [ label = "Frozen Nails\nBane: Ice" ][colorscheme=pubu8, color=6]
+"Steel Talons"[colorscheme=pubu8, color=6]
+"Barbed Cudgel" [ label = "Barbed Cudgel\nBane: Greenskin" ][colorscheme=pubu8, color=6]
+"Burning Hammer" [ label = "Burning Hammer\nBane: Fire" ][colorscheme=pubu8, color=6]
+"Sanctified Sceptre" [ label = "Sanctified Sceptre\nBane: Evil" ][colorscheme=pubu8, color=6]
+"Lightning Club" [ label = "Lightning Club\nBane: Storm" ][colorscheme=pubu8, color=6]
+"Obsidian Club" [ label = "Obsidian Club\nBane: Earth" ][colorscheme=pubu8, color=6]
+"Shadow Maul" [ label = "Shadow Maul\nBane: Night" ][colorscheme=pubu8, color=6]
+"Moonstrike" [ label = "Moonstrike\nBane: Night" ][colorscheme=pubu8, color=6]
+"Roaring Earth" [ label = "Roaring Earth\nBane: Earth" ][colorscheme=pubu8, color=7]
+"Blitzkrieg" [ label = "Blitzkrieg\nBane: Storm" ][colorscheme=pubu8, color=7]
+"Seraphim Grace" [ label = "Seraphim Grace\nBane: Evil" ][colorscheme=pubu8, color=7]
+"Hellsbreath" [ label = "Hellsbreath\nBane: Fire" ][colorscheme=pubu8, color=7]
+"Troll Gnasher" [ label = "Troll Gnasher\nBane: Greenskin" ][colorscheme=pubu8, color=7]
+"Tempered Talons"[colorscheme=pubu8, color=7]
+"Cold Embrace" [ label = "Cold Embrace\nBane: Ice" ][colorscheme=pubu8, color=7]
+"Furious Claws" [ label = "Furious Claws\nBane: Inanimate" ][colorscheme=pubu8, color=7]
+
+"Rusted Mace" -> "Mace"
+"Mace" -> "Sturdy Mace"
+"Sturdy Mace" -> "Claws"
+"Sturdy Mace" -> "Hammer"
+"Sturdy Mace" -> "Club"
+"Club" -> "Blackened Maul"
+"Club" -> "Bedrock Club"
+"Club" -> "Charged Club"
+"Hammer" -> "Sacred Sceptre"
+"Hammer" -> "Charred Hammer"
+"Hammer" -> "Morning Star"
+"Claws" -> "Iron Talons"
+"Claws" -> "Cold Nails"
+"Claws" -> "Cub Claws"
+"Cub Claws" -> "Great Claws"
+"Cold Nails" -> "Frozen Nails"
+"Iron Talons" -> "Steel Talons"
+"Morning Star" -> "Barbed Cudgel"
+"Charred Hammer" -> "Burning Hammer"
+"Sacred Sceptre" -> "Sanctified Sceptre"
+"Charged Club" -> "Lightning Club"
+"Bedrock Club" -> "Obsidian Club"
+"Blackened Maul" -> "Shadow Maul"
+"Shadow Maul" -> "Moonstrike"
+"Obsidian Club" -> "Roaring Earth"
+"Lightning Club" -> "Blitzkrieg"
+"Sanctified Sceptre" -> "Seraphim Grace"
+"Burning Hammer" -> "Hellsbreath"
+"Barbed Cudgel" -> "Troll Gnasher"
+"Steel Talons" -> "Tempered Talons"
+"Frozen Nails" -> "Cold Embrace"
+"Great Claws" -> "Furious Claws"
+}

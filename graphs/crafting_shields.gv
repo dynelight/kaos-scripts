@@ -1,0 +1,71 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+"Rusty Small Shield"[colorscheme=pubu8, color=1]
+"Small Shield"[colorscheme=pubu8, color=2]
+"Medium Shield"[colorscheme=pubu8, color=3]
+"Aegis"[colorscheme=pubu8, color=4]
+"Galvanized Aegis"[colorscheme=pubu8, color=5]
+"Aegis of Sanctification"[colorscheme=pubu8, color=5]
+"Brute Aegis"[colorscheme=pubu8, color=5]
+"Steeled Aegis"[colorscheme=pubu8, color=6]
+"Aegis of Redemption"[colorscheme=pubu8, color=6]
+"Monstrous Aegis"[colorscheme=pubu8, color=6]
+"Immortal Alloy"[colorscheme=pubu8, color=7]
+"Light's Grace"[colorscheme=pubu8, color=7]
+"Bestial Defender"[colorscheme=pubu8, color=7]
+"Large Shield"[colorscheme=pubu8, color=4]
+"Adamantite Shield"[colorscheme=pubu8, color=5]
+"Frogskin Shield"[colorscheme=pubu8, color=5]
+"Wisp Shield"[colorscheme=pubu8, color=5]
+"War Guard"[colorscheme=pubu8, color=6]
+"Tidal Guard"[colorscheme=pubu8, color=6]
+"Cloud Shield"[colorscheme=pubu8, color=6]
+"Impervious Guard"[colorscheme=pubu8, color=7]
+"Typhoon Watershield"[colorscheme=pubu8, color=7]
+"Veil of Mist"[colorscheme=pubu8, color=7]
+"Bulwark"[colorscheme=pubu8, color=4]
+"Drift Bulwark"[colorscheme=pubu8, color=5]
+"Desecrated Bulwark"[colorscheme=pubu8, color=5]
+"Charred Bulwark"[colorscheme=pubu8, color=5]
+"Ironwood Bulwark"[colorscheme=pubu8, color=6]
+"Unholy Bulwark"[colorscheme=pubu8, color=6]
+"Targosian  Bulwark"[colorscheme=pubu8, color=6]
+"Nature's Defense"[colorscheme=pubu8, color=7]
+"Death's Wall"[colorscheme=pubu8, color=7]
+"Wall of Flames"[colorscheme=pubu8, color=7]
+
+
+"Rusty Small Shield" -> "Small Shield"
+"Small Shield" -> "Medium Shield"
+"Medium Shield" -> "Aegis"
+"Aegis" -> "Galvanized Aegis"
+"Aegis" -> "Aegis of Sanctification"
+"Aegis" -> "Brute Aegis"
+"Galvanized Aegis" -> "Steeled Aegis"
+"Aegis of Sanctification" -> "Aegis of Redemption"
+"Brute Aegis" -> "Monstrous Aegis"
+"Steeled Aegis" -> "Immortal Alloy"
+"Aegis of Redemption" -> "Light's Grace"
+"Monstrous Aegis" -> "Bestial Defender"
+"Medium Shield" -> "Large Shield"
+"Large Shield" -> "Adamantite Shield"
+"Large Shield" -> "Frogskin Shield"
+"Large Shield" -> "Wisp Shield"
+"Adamantite Shield" -> "War Guard"
+"Frogskin Shield" -> "Tidal Guard"
+"Wisp Shield" -> "Cloud Shield"
+"War Guard" -> "Impervious Guard"
+"Tidal Guard" -> "Typhoon Watershield"
+"Cloud Shield" -> "Veil of Mist"
+"Medium Shield" -> "Bulwark"
+"Bulwark" -> "Drift Bulwark"
+"Bulwark" -> "Desecrated Bulwark"
+"Bulwark" -> "Charred Bulwark"
+"Drift Bulwark" -> "Ironwood Bulwark"
+"Desecrated Bulwark" -> "Unholy Bulwark"
+"Charred Bulwark" -> "Targosian  Bulwark"
+"Ironwood Bulwark" -> "Nature's Defense"
+"Unholy Bulwark" -> "Death's Wall"
+"Targosian  Bulwark" -> "Wall of Flames"    
+    }

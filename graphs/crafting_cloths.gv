@@ -1,0 +1,50 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+"Torn Cloak"[colorscheme=pubu8, color=1]
+"Cloak"[colorscheme=pubu8, color=2]
+"Veil"[colorscheme=pubu8, color=3]
+"Robe"[colorscheme=pubu8, color=4]
+"Novice Robes"[colorscheme=pubu8, color=5]
+"Astral Duster"[colorscheme=pubu8, color=5]
+"Sorcerer's Aura"[colorscheme=pubu8, color=5]
+"Magician's Cape"[colorscheme=pubu8, color=6]
+"Galactic Overcoat"[colorscheme=pubu8, color=6]
+"Spellslinger's Veil"[colorscheme=pubu8, color=6]
+"Conjurer's Raiment"[colorscheme=pubu8, color=7]
+"Infinite Attire"[colorscheme=pubu8, color=7]
+"Mantle of the Arcanist"[colorscheme=pubu8, color=7]
+"Shroud"[colorscheme=pubu8, color=4]
+"Accursed Shroud"[colorscheme=pubu8, color=5]
+"Bound Flesh"[colorscheme=pubu8, color=5]
+"Boneweave Manteau"[colorscheme=pubu8, color=5]
+"Haunted Spirits"[colorscheme=pubu8, color=6]
+"Gravemaker Coat"[colorscheme=pubu8, color=6]
+"Corpsemaster's Cassock"[colorscheme=pubu8, color=6]
+"Demonic Illusions"[colorscheme=pubu8, color=7]
+"Deathly Voices"[colorscheme=pubu8, color=7]
+"Re-animator Vestments"[colorscheme=pubu8, color=7]    
+
+"Torn Cloak" -> "Cloak"
+"Cloak" -> "Veil"
+"Veil" -> "Robe"
+"Robe" -> "Novice Robes"
+"Robe" -> "Astral Duster"
+"Robe" -> "Sorcerer's Aura"
+"Novice Robes" -> "Magician's Cape"
+"Astral Duster" -> "Galactic Overcoat"
+"Sorcerer's Aura" -> "Spellslinger's Veil"
+"Magician's Cape" -> "Conjurer's Raiment"
+"Galactic Overcoat" -> "Infinite Attire"
+"Spellslinger's Veil" -> "Mantle of the Arcanist"
+"Veil" -> "Shroud"
+"Shroud" -> "Accursed Shroud"
+"Shroud" -> "Bound Flesh"
+"Shroud" -> "Boneweave Manteau"
+"Accursed Shroud" -> "Haunted Spirits"
+"Bound Flesh" -> "Gravemaker Coat"
+"Boneweave Manteau" -> "Corpsemaster's Cassock"
+"Haunted Spirits" -> "Demonic Illusions"
+"Gravemaker Coat" -> "Deathly Voices"
+"Corpsemaster's Cassock" -> "Re-animator Vestments"
+}

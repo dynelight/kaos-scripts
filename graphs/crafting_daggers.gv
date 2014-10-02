@@ -1,0 +1,70 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+    "Rusty Dagger"[colorscheme=pubu8, color=1]
+"Dagger"[colorscheme=pubu8, color=2]
+"Iron Dagger"[colorscheme=pubu8, color=3]
+"Steel Dagger"[colorscheme=pubu8, color=4]
+"Stiletto"[colorscheme=pubu8, color=4]
+"Knife"[colorscheme=pubu8, color=4]
+"Gale Ripper" [ label = "Gale Ripper\nBane: Storm" ][colorscheme=pubu8, color=5]
+"Onyx Knife" [ label = "Onyx Knife\nBane: Night" ][colorscheme=pubu8, color=5]
+"Chipped Fang" [ label = "Chipped Fang\nBane: Animal" ][colorscheme=pubu8, color=5]
+"Ember Stiletto" [ label = "Ember Stiletto\nBane: Fire" ][colorscheme=pubu8, color=5]
+"Dawning Stiletto"[colorscheme=pubu8, color=5]
+"Shivering Cusp" [ label = "Shivering Cusp\nBane: Ice" ][colorscheme=pubu8, color=5]
+"Wooden Knife" [ label = "Wooden Knife\nBane: Earth" ][colorscheme=pubu8, color=5]
+"Scoungry Dirk" [ label = "Scoungry Dirk\nBane: Rogue" ][colorscheme=pubu8, color=5]
+"Carnal Kris" [ label = "Carnal Kris\nBane: Beast" ][colorscheme=pubu8, color=5]
+"Beastial Skewer" [ label = "Beastial Skewer\nBane: Beast" ][colorscheme=pubu8, color=6]
+"Saldurine Dirk" [ label = "Saldurine Dirk\nBane: Rogue" ][colorscheme=pubu8, color=6]
+"Viridian Sickle" [ label = "Viridian Sickle\nBane: Earth" ][colorscheme=pubu8, color=6]
+"Chilled Incisor" [ label = "Chilled Incisor\nBane: Ice" ][colorscheme=pubu8, color=6]
+"Meridian Stiletto"[colorscheme=pubu8, color=6]
+"Lava Stiletto" [ label = "Lava Stiletto\nBane: Fire" ][colorscheme=pubu8, color=6]
+"Bloody Fang" [ label = "Bloody Fang\nBane: Animal" ][colorscheme=pubu8, color=6]
+"Shadowpoint" [ label = "Shadowpoint\nBane: Night" ][colorscheme=pubu8, color=6]
+"Cyclone Sickle" [ label = "Cyclone Sickle\nBane: Storm" ][colorscheme=pubu8, color=6]
+"Maelstrom" [ label = "Maelstrom\nBane: Storm" ][colorscheme=pubu8, color=7]
+"Amaranthine Twilight" [ label = "Amaranthine Twilight\nBane: Night" ][colorscheme=pubu8, color=7]
+"Lethal Bite" [ label = "Lethal Bite\nBane: Animal" ][colorscheme=pubu8, color=7]
+"Untamed Flames" [ label = "Untamed Flames\nBane: Fire" ][colorscheme=pubu8, color=7]
+"Nightfall"[colorscheme=pubu8, color=7]
+"Glacial Despair" [ label = "Glacial Despair\nBane: Ice" ][colorscheme=pubu8, color=7]
+"Yggdrasil" [ label = "Yggdrasil\nBane: Earth" ][colorscheme=pubu8, color=7]
+"Eternal Mirage" [ label = "Eternal Mirage\nBane: Rogue" ][colorscheme=pubu8, color=7]
+"Untamed Misery" [ label = "Untamed Misery\nBane: Beast" ][colorscheme=pubu8, color=7]
+
+"Rusty Dagger" -> "Dagger"
+"Dagger" -> "Iron Dagger"
+"Iron Dagger" -> "Steel Dagger"
+"Iron Dagger" -> "Stiletto"
+"Iron Dagger" -> "Knife"
+"Steel Dagger" -> "Gale Ripper"
+"Steel Dagger" -> "Onyx Knife"
+"Steel Dagger" -> "Chipped Fang"
+"Stiletto" -> "Ember Stiletto"
+"Stiletto" -> "Dawning Stiletto"
+"Stiletto" -> "Shivering Cusp"
+"Knife" -> "Wooden Knife"
+"Knife" -> "Scoungry Dirk"
+"Knife" -> "Carnal Kris"
+"Carnal Kris" -> "Beastial Skewer"
+"Scoungry Dirk" -> "Saldurine Dirk"
+"Wooden Knife" -> "Viridian Sickle"
+"Shivering Cusp" -> "Chilled Incisor"
+"Dawning Stiletto" -> "Meridian Stiletto"
+"Ember Stiletto" -> "Lava Stiletto"
+"Chipped Fang" -> "Bloody Fang"
+"Onyx Knife" -> "Shadowpoint"
+"Gale Ripper" -> "Cyclone Sickle"
+"Cyclone Sickle" -> "Maelstrom"
+"Shadowpoint" -> "Amaranthine Twilight"
+"Bloody Fang" -> "Lethal Bite"
+"Lava Stiletto" -> "Untamed Flames"
+"Meridian Stiletto" -> "Nightfall"
+"Chilled Incisor" -> "Glacial Despair"
+"Viridian Sickle" -> "Yggdrasil"
+"Saldurine Dirk" -> "Eternal Mirage"
+"Beastial Skewer" -> "Untamed Misery"
+}

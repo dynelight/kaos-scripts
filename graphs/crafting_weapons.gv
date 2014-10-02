@@ -1,0 +1,81 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+"Rusty Short Sword"[colorscheme=pubu8, color=1]
+"Dull Short Sword"[colorscheme=pubu8, color=2]
+"Small Sword"[colorscheme=pubu8, color=3]
+"Bow"[colorscheme=pubu8, color=3]
+"Longsword"[colorscheme=pubu8, color=4]
+"Axe"[colorscheme=pubu8, color=4]
+"Pole-Arm"[colorscheme=pubu8, color=4]
+"Longbow"[colorscheme=pubu8, color=4]
+"Blessed Sabre" [ label = "Blessed Sabre\nBane: Evil" ][colorscheme=pubu8, color=5]
+"Obscure Blade" [ label = "Obscure Blade\nBane: Night" ][colorscheme=pubu8, color=5]
+"Gusty Claymore" [ label = "Gusty Claymore\nBane: Storm" ][colorscheme=pubu8, color=5]
+"Crystal Hatchet" [ label = "Crystal Hatchet\nBane: Elemental" ][colorscheme=pubu8, color=5]
+"Charcoal Double Axe" [ label = "Charcoal Double Axe\nBane: Fire" ][colorscheme=pubu8, color=5]
+"Evil Broadaxe"[colorscheme=pubu8, color=5]
+"Quaked Glaive" [ label = "Quaked Glaive\nBane: Earth" ][colorscheme=pubu8, color=5]
+"Dragon Lance" [ label = "Dragon Lance\nBane: Dragon" ][colorscheme=pubu8, color=5]
+"Dew Scythe" [ label = "Dew Scythe\nBane: Ice" ][colorscheme=pubu8, color=5]
+"Hickory Longbow" [ label = "Hickory Longbow\nBane: Animal" ][colorscheme=pubu8, color=5]
+"Bloodwood Crossbow" [ label = "Bloodwood Crossbow\nBane: Animal" ][colorscheme=pubu8, color=6]
+"Torrential Scythe" [ label = "Torrential Scythe\nBane: Ice" ][colorscheme=pubu8, color=6]
+"Wyrmslayer" [ label = "Wyrmslayer\nBane: Dragon" ][colorscheme=pubu8, color=6]
+"Glaive of Tremors" [ label = "Glaive of Tremors\nBane: Earth" ][colorscheme=pubu8, color=6]
+"Devil's Broadaxe"[colorscheme=pubu8, color=6]
+"Molten Axe" [ label = "Molten Axe\nBane: Fire" ][colorscheme=pubu8, color=6]
+"Iridescent Hatchet" [ label = "Iridescent Hatchet\nBane: Elemental" ][colorscheme=pubu8, color=6]
+"Tempest Zweihander" [ label = "Tempest Zweihander\nBane: Storm" ][colorscheme=pubu8, color=6]
+"Blade of Woe" [ label = "Blade of Woe\nBane: Night" ][colorscheme=pubu8, color=6]
+"Sacred Edge" [ label = "Sacred Edge\nBane: Evil" ][colorscheme=pubu8, color=6]
+"Angelic Greatsword" [ label = "Angelic Greatsword\nBane: Evil" ][colorscheme=pubu8, color=7]
+"Valestian" [ label = "Valestian\nBane: Night" ][colorscheme=pubu8, color=7]
+"Skyblade" [ label = "Skyblade\nBane: Storm" ][colorscheme=pubu8, color=7]
+"Brilliant Prismaxe" [ label = "Brilliant Prismaxe\nBane: Elemental" ][colorscheme=pubu8, color=7]
+"Inferno's Divide" [ label = "Inferno's Divide\nBane: Fire" ][colorscheme=pubu8, color=7]
+"Malevolence"[colorscheme=pubu8, color=7]
+"Fissure Partizan" [ label = "Fissure Partizan\nBane: Earth" ][colorscheme=pubu8, color=7]
+"Theagan's Might" [ label = "Theagan's Might\nBane: Dragon" ][colorscheme=pubu8, color=7]
+"Ocean's Crescent" [ label = "Ocean's Crescent\nBane: Ice" ][colorscheme=pubu8, color=7]
+"Hunter's Arbalest" [ label = "Hunter's Arbalest\nBane: Animal" ][colorscheme=pubu8, color=7]
+
+"Rusty Short Sword" -> "Dull Short Sword"
+"Dull Short Sword" -> "Small Sword"
+"Dull Short Sword" -> "Bow"
+"Small Sword" -> "Longsword"
+"Small Sword" -> "Axe"
+"Small Sword" -> "Pole-Arm"
+"Bow" -> "Longbow"
+"Longsword" -> "Blessed Sabre"
+"Longsword" -> "Obscure Blade"
+"Longsword" -> "Gusty Claymore"
+"Axe" -> "Crystal Hatchet"
+"Axe" -> "Charcoal Double Axe"
+"Axe" -> "Evil Broadaxe"
+"Pole-Arm" -> "Quaked Glaive"
+"Pole-Arm" -> "Dragon Lance"
+"Pole-Arm" -> "Dew Scythe"
+"Longbow" -> "Hickory Longbow"
+"Hickory Longbow" -> "Bloodwood Crossbow"
+"Dew Scythe" -> "Torrential Scythe"
+"Dragon Lance" -> "Wyrmslayer"
+"Quaked Glaive" -> "Glaive of Tremors"
+"Evil Broadaxe" -> "Devil's Broadaxe"
+"Charcoal Double Axe" -> "Molten Axe"
+"Crystal Hatchet" -> "Iridescent Hatchet"
+"Gusty Claymore" -> "Tempest Zweihander"
+"Obscure Blade" -> "Blade of Woe"
+"Blessed Sabre" -> "Sacred Edge"
+"Sacred Edge" -> "Angelic Greatsword"
+"Blade of Woe" -> "Valestian"
+"Tempest Zweihander" -> "Skyblade"
+"Iridescent Hatchet" -> "Brilliant Prismaxe"
+"Molten Axe" -> "Inferno's Divide"
+"Devil's Broadaxe" -> "Malevolence"
+"Glaive of Tremors" -> "Fissure Partizan"
+"Wyrmslayer" -> "Theagan's Might"
+"Torrential Scythe" -> "Ocean's Crescent"
+"Bloodwood Crossbow" -> "Hunter's Arbalest"
+}
+

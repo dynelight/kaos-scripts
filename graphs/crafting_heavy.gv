@@ -1,0 +1,50 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+    "Rusty Mail Armor"[colorscheme=pubu8, color=1]
+"Mail Armor"[colorscheme=pubu8, color=2]
+"Sturdy Mail Armor"[colorscheme=pubu8, color=3]
+"Plate Mail"[colorscheme=pubu8, color=4]
+"Chivalric Chain "[colorscheme=pubu8, color=5]
+"Blessed Plate"[colorscheme=pubu8, color=5]
+"Jade Surcoat"[colorscheme=pubu8, color=5]
+"Heraldic Plate"[colorscheme=pubu8, color=6]
+"Divine Ward"[colorscheme=pubu8, color=6]
+"Draconic Ensign"[colorscheme=pubu8, color=6]
+"Chevalier's Glory"[colorscheme=pubu8, color=7]
+"Celestial Protection"[colorscheme=pubu8, color=7]
+"Defender's Citadel"[colorscheme=pubu8, color=7]
+"Cuirass"[colorscheme=pubu8, color=4]
+"Glacial Cuirass"[colorscheme=pubu8, color=5]
+"Ancient Carapace"[colorscheme=pubu8, color=5]
+"Obsidian Cuirass"[colorscheme=pubu8, color=5]
+"Northern Iceplate"[colorscheme=pubu8, color=6]
+"Scorched Glass Mail"[colorscheme=pubu8, color=6]
+"Kaleidoscopic Armor"[colorscheme=pubu8, color=6]
+"Fenrirplate"[colorscheme=pubu8, color=7]
+"Khofu's Cofferplate"[colorscheme=pubu8, color=7]
+"Prismatic Dawnplate"[colorscheme=pubu8, color=7]
+
+"Rusty Mail Armor" -> "Mail Armor"
+"Mail Armor" -> "Sturdy Mail Armor"
+"Sturdy Mail Armor" -> "Plate Mail"
+"Plate Mail" -> "Chivalric Chain "
+"Plate Mail" -> "Blessed Plate"
+"Plate Mail" -> "Jade Surcoat"
+"Chivalric Chain " -> "Heraldic Plate"
+"Blessed Plate" -> "Divine Ward"
+"Jade Surcoat" -> "Draconic Ensign"
+"Heraldic Plate" -> "Chevalier's Glory"
+"Divine Ward" -> "Celestial Protection"
+"Draconic Ensign" -> "Defender's Citadel"
+"Sturdy Mail Armor" -> "Cuirass"
+"Cuirass" -> "Glacial Cuirass"
+"Cuirass" -> "Ancient Carapace"
+"Cuirass" -> "Obsidian Cuirass"
+"Glacial Cuirass" -> "Northern Iceplate"
+"Ancient Carapace" -> "Scorched Glass Mail"
+"Obsidian Cuirass" -> "Kaleidoscopic Armor"
+"Northern Iceplate" -> "Fenrirplate"
+"Scorched Glass Mail" -> "Khofu's Cofferplate"
+"Kaleidoscopic Armor" -> "Prismatic Dawnplate"
+    }

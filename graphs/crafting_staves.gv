@@ -1,0 +1,50 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+    "Broken Staff"[colorscheme=pubu8, color=1]
+"Training Staff"[colorscheme=pubu8, color=2]
+"Staff"[colorscheme=pubu8, color=3]
+"Composite Staff"[colorscheme=pubu8, color=4]
+"Kodachi"[colorscheme=pubu8, color=4]
+"Tremor Wakizashi" [ label = "Tremor Wakizashi\nBane: Earth" ][colorscheme=pubu8, color=5]
+"Dusk Wakizashi" [ label = "Dusk Wakizashi\nBane: Night" ][colorscheme=pubu8, color=5]
+"Flashing Wakizashi" [ label = "Flashing Wakizashi\nBane: Storm" ][colorscheme=pubu8, color=5]
+"Chaotic Staff"[colorscheme=pubu8, color=5]
+"Ember Staff" [ label = "Ember Staff\nBane: Fire" ][colorscheme=pubu8, color=5]
+"Frozen Quarterstaff" [ label = "Frozen Quarterstaff\nBane: Ice" ][colorscheme=pubu8, color=5]
+"Glacial Stalactite" [ label = "Glacial Stalactite\nBane: Ice" ][colorscheme=pubu8, color=6]
+"Flaming Quarterstaff" [ label = "Flaming Quarterstaff\nBane: Fire" ][colorscheme=pubu8, color=6]
+"Staff of Madness"[colorscheme=pubu8, color=6]
+"Blinding Katana" [ label = "Blinding Katana\nBane: Storm" ][colorscheme=pubu8, color=6]
+"Lunar Katana" [ label = "Lunar Katana\nBane: Night" ][colorscheme=pubu8, color=6]
+"Seismic Katana" [ label = "Seismic Katana\nBane: Earth" ][colorscheme=pubu8, color=6]
+"Terranova" [ label = "Terranova\nBane: Earth" ][colorscheme=pubu8, color=7]
+"Crescent Moon" [ label = "Crescent Moon\nBane: Night" ][colorscheme=pubu8, color=7]
+"Thunderblade" [ label = "Thunderblade\nBane: Storm" ][colorscheme=pubu8, color=7]
+"Staff of Annihilation"[colorscheme=pubu8, color=7]
+"Sunrise" [ label = "Sunrise\nBane: Fire" ][colorscheme=pubu8, color=7]
+"Sheer Cold" [ label = "Sheer Cold\nBane: Ice" ][colorscheme=pubu8, color=7]
+
+"Broken Staff" -> "Training Staff"
+"Training Staff" -> "Staff"
+"Staff" -> "Composite Staff"
+"Staff" -> "Kodachi"
+"Kodachi" -> "Tremor Wakizashi"
+"Kodachi" -> "Dusk Wakizashi"
+"Kodachi" -> "Flashing Wakizashi"
+"Composite Staff" -> "Chaotic Staff"
+"Composite Staff" -> "Ember Staff"
+"Composite Staff" -> "Frozen Quarterstaff"
+"Frozen Quarterstaff" -> "Glacial Stalactite"
+"Ember Staff" -> "Flaming Quarterstaff"
+"Chaotic Staff" -> "Staff of Madness"
+"Flashing Wakizashi" -> "Blinding Katana"
+"Dusk Wakizashi" -> "Lunar Katana"
+"Tremor Wakizashi" -> "Seismic Katana"
+"Seismic Katana" -> "Terranova"
+"Lunar Katana" -> "Crescent Moon"
+"Blinding Katana" -> "Thunderblade"
+"Staff of Madness" -> "Staff of Annihilation"
+"Flaming Quarterstaff" -> "Sunrise"
+"Glacial Stalactite" -> "Sheer Cold"
+}

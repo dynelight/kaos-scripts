@@ -1,0 +1,31 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+
+"Padded Armor"[colorscheme=pubu8, color=1]
+"Vest"[colorscheme=pubu8, color=2]
+"Kimono"[colorscheme=pubu8, color=3]
+"Judogi"[colorscheme=pubu8, color=4]
+"Apprentice's Shozoku"[colorscheme=pubu8, color=5]
+"Grasshopper's Gi"[colorscheme=pubu8, color=5]
+"Samurai Robes"[colorscheme=pubu8, color=5]
+"Champion's Shozoku"[colorscheme=pubu8, color=6]
+"Warrior's Kabuto"[colorscheme=pubu8, color=6]
+"Ronin Leathers"[colorscheme=pubu8, color=6]
+"Emperor's Kabuto"[colorscheme=pubu8, color=7]
+"Master's Yoroi"[colorscheme=pubu8, color=7]
+"Shinobi Shadow Robes"[colorscheme=pubu8, color=7]
+
+"Padded Armor" -> "Vest"
+"Vest" -> "Kimono"
+"Kimono" -> "Judogi"
+"Judogi" -> "Apprentice's Shozoku"
+"Judogi" -> "Grasshopper's Gi"
+"Judogi" -> "Samurai Robes"
+"Apprentice's Shozoku" -> "Champion's Shozoku"
+"Grasshopper's Gi" -> "Warrior's Kabuto"
+"Samurai Robes" -> "Ronin Leathers"
+"Champion's Shozoku" -> "Emperor's Kabuto"
+"Warrior's Kabuto" -> "Master's Yoroi"
+"Ronin Leathers" -> "Shinobi Shadow Robes"
+}

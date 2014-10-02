@@ -1,0 +1,70 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+    "Rusty Helmet"[colorscheme=pubu8, color=1]
+"Helm"[colorscheme=pubu8, color=2]
+"Steel Helmet"[colorscheme=pubu8, color=3]
+"Basinet"[colorscheme=pubu8, color=4]
+"Protector Basinet"[colorscheme=pubu8, color=5]
+"Hydra Headgear"[colorscheme=pubu8, color=5]
+"Meteor Helm"[colorscheme=pubu8, color=5]
+"Crusader's Plight"[colorscheme=pubu8, color=6]
+"Wyrm Helm"[colorscheme=pubu8, color=6]
+"Astral Headgear"[colorscheme=pubu8, color=6]
+"Templar's Salvation"[colorscheme=pubu8, color=7]
+"Draconian Skull"[colorscheme=pubu8, color=7]
+"Cosmic Greathelm"[colorscheme=pubu8, color=7]
+"Barette"[colorscheme=pubu8, color=4]
+"Tiara of Nobility"[colorscheme=pubu8, color=5]
+"Gleaming Clip"[colorscheme=pubu8, color=5]
+"Helm of the Cross"[colorscheme=pubu8, color=5]
+"Conqueror Crown"[colorscheme=pubu8, color=6]
+"Holy Visage"[colorscheme=pubu8, color=6]
+"Crown of Sanctification"[colorscheme=pubu8, color=6]
+"King's Corona"[colorscheme=pubu8, color=7]
+"Celestial Halo"[colorscheme=pubu8, color=7]
+"Light Forged Barrette"[colorscheme=pubu8, color=7]
+"Hood"[colorscheme=pubu8, color=4]
+"Thief's Hood"[colorscheme=pubu8, color=5]
+"Assassin's Cowl"[colorscheme=pubu8, color=5]
+"Imp Masquerade"[colorscheme=pubu8, color=5]
+"Traitor's Shako"[colorscheme=pubu8, color=6]
+"Betrayer's Bandana"[colorscheme=pubu8, color=6]
+"Stygian Mask "[colorscheme=pubu8, color=6]
+"Marauder's Shawl"[colorscheme=pubu8, color=7]
+"Executioner's Guise"[colorscheme=pubu8, color=7]
+"Carrion Wrap"[colorscheme=pubu8, color=7]
+
+"Rusty Helmet" -> "Helm"
+"Helm" -> "Steel Helmet"
+"Steel Helmet" -> "Basinet"
+"Basinet" -> "Protector Basinet"
+"Basinet" -> "Hydra Headgear"
+"Basinet" -> "Meteor Helm"
+"Protector Basinet" -> "Crusader's Plight"
+"Hydra Headgear" -> "Wyrm Helm"
+"Meteor Helm" -> "Astral Headgear"
+"Crusader's Plight" -> "Templar's Salvation"
+"Wyrm Helm" -> "Draconian Skull"
+"Astral Headgear" -> "Cosmic Greathelm"
+"Steel Helmet" -> "Barette"
+"Barette" -> "Tiara of Nobility"
+"Barette" -> "Gleaming Clip"
+"Barette" -> "Helm of the Cross"
+"Tiara of Nobility" -> "Conqueror Crown"
+"Gleaming Clip" -> "Holy Visage"
+"Helm of the Cross" -> "Crown of Sanctification"
+"Conqueror Crown" -> "King's Corona"
+"Holy Visage" -> "Celestial Halo"
+"Crown of Sanctification" -> "Light Forged Barrette"
+"Steel Helmet" -> "Hood"
+"Hood" -> "Thief's Hood"
+"Hood" -> "Assassin's Cowl"
+"Hood" -> "Imp Masquerade"
+"Thief's Hood" -> "Traitor's Shako"
+"Assassin's Cowl" -> "Betrayer's Bandana"
+"Imp Masquerade" -> "Stygian Mask "
+"Traitor's Shako" -> "Marauder's Shawl"
+"Betrayer's Bandana" -> "Executioner's Guise"
+"Stygian Mask " -> "Carrion Wrap"
+    }

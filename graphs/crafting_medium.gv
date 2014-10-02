@@ -1,0 +1,70 @@
+digraph g1 {
+    layout="dot";
+    node[style=filled, fontname="Helvetica"];
+"Torn Leather Armor"[colorscheme=pubu8, color=1]
+"Leather Armor"[colorscheme=pubu8, color=2]
+"Padded Leather Armor"[colorscheme=pubu8, color=3]
+"Jerkin"[colorscheme=pubu8, color=4]
+"Novelist Tailcoat"[colorscheme=pubu8, color=5]
+"Drudged Waistcoat"[colorscheme=pubu8, color=5]
+"Briar Thread Jerkin"[colorscheme=pubu8, color=5]
+"Prosaic Verse"[colorscheme=pubu8, color=6]
+"Bandit's Overcoat"[colorscheme=pubu8, color=6]
+"Chartreuse Jerkin"[colorscheme=pubu8, color=6]
+"Romantic Tales"[colorscheme=pubu8, color=7]
+"Mercenary Trenchcoat"[colorscheme=pubu8, color=7]
+"Meritorious Surcoat"[colorscheme=pubu8, color=7]
+"Chain Mail"[colorscheme=pubu8, color=4]
+"Maleficient Chainmail"[colorscheme=pubu8, color=5]
+"Rogue's Chain"[colorscheme=pubu8, color=5]
+"Ancient Chain Mail"[colorscheme=pubu8, color=5]
+"Nefarious Chains"[colorscheme=pubu8, color=6]
+"Cuirass of the Thief"[colorscheme=pubu8, color=6]
+"Archaic Hauberk"[colorscheme=pubu8, color=6]
+"Chains of Deadly Sins"[colorscheme=pubu8, color=7]
+"Brigadier's Hauberk"[colorscheme=pubu8, color=7]
+"Aeonian Chains"[colorscheme=pubu8, color=7]
+"Leather Vest"[colorscheme=pubu8, color=4]
+"Dracolisk Leathers"[colorscheme=pubu8, color=5]
+"Thorn Thicket Vest"[colorscheme=pubu8, color=5]
+"Twilight Vest"[colorscheme=pubu8, color=5]
+"Salamander Carapace"[colorscheme=pubu8, color=6]
+"Wildwood Jacket"[colorscheme=pubu8, color=6]
+"Night's Embrace"[colorscheme=pubu8, color=6]
+"Nyx Scales"[colorscheme=pubu8, color=7]
+"Fabled Fox Furs"[colorscheme=pubu8, color=7]
+"Aphotic Whispers"[colorscheme=pubu8, color=7]
+
+"Torn Leather Armor" -> "Leather Armor"
+"Leather Armor" -> "Padded Leather Armor"
+"Padded Leather Armor" -> "Jerkin"
+"Jerkin" -> "Novelist Tailcoat"
+"Jerkin" -> "Drudged Waistcoat"
+"Jerkin" -> "Briar Thread Jerkin"
+"Novelist Tailcoat" -> "Prosaic Verse"
+"Drudged Waistcoat" -> "Bandit's Overcoat"
+"Briar Thread Jerkin" -> "Chartreuse Jerkin"
+"Prosaic Verse" -> "Romantic Tales"
+"Bandit's Overcoat" -> "Mercenary Trenchcoat"
+"Chartreuse Jerkin" -> "Meritorious Surcoat"
+"Padded Leather Armor" -> "Chain Mail"
+"Chain Mail" -> "Maleficient Chainmail"
+"Chain Mail" -> "Rogue's Chain"
+"Chain Mail" -> "Ancient Chain Mail"
+"Maleficient Chainmail" -> "Nefarious Chains"
+"Rogue's Chain" -> "Cuirass of the Thief"
+"Ancient Chain Mail" -> "Archaic Hauberk"
+"Nefarious Chains" -> "Chains of Deadly Sins"
+"Cuirass of the Thief" -> "Brigadier's Hauberk"
+"Archaic Hauberk" -> "Aeonian Chains"
+"Padded Leather Armor" -> "Leather Vest"
+"Leather Vest" -> "Dracolisk Leathers"
+"Leather Vest" -> "Thorn Thicket Vest"
+"Leather Vest" -> "Twilight Vest"
+"Dracolisk Leathers" -> "Salamander Carapace"
+"Thorn Thicket Vest" -> "Wildwood Jacket"
+"Twilight Vest" -> "Night's Embrace"
+"Salamander Carapace" -> "Nyx Scales"
+"Wildwood Jacket" -> "Fabled Fox Furs"
+"Night's Embrace" -> "Aphotic Whispers"
+}
